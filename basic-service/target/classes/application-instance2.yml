@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: basic-service-instance2
+  cloud:
+    config:
+      uri: http://192.168.24.73:10087
+  data:
+    rest:
+      base-path: /api
+  profiles:
+    active: instance2

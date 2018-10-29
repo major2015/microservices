@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: basic-service
+  cloud:
+    config:
+      uri: http://localhost:10087
+  data:
+    rest:
+      base-path: /api

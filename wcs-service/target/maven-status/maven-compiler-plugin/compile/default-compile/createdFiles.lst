@@ -1,0 +1,7 @@
+com\quicktron\wcs\core\WCS.class
+com\quicktron\wcs\core\AGV.class
+com\quicktron\wcs\resources\WCSResource$WCSDataResult.class
+com\quicktron\wcs\client\BasicClient.class
+com\quicktron\wcs\resources\WCSResource.class
+com\quicktron\wcs\client\BasicClient$AGVResult.class
+com\quicktron\wcs\db\WCSDataMock.class

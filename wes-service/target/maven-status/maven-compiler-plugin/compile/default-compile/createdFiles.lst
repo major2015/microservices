@@ -1,0 +1,10 @@
+com\quicktron\wes\core\WCS.class
+com\quicktron\wes\db\WESDataMock.class
+com\quicktron\wes\client\WCSClient.class
+com\quicktron\wes\client\BasicClient.class
+com\quicktron\wes\client\WCSClient$WCSDataResult.class
+com\quicktron\wes\resources\WESResource.class
+com\quicktron\wes\WESApplication.class
+com\quicktron\wes\core\WES.class
+com\quicktron\wes\client\BasicClient$AGVResult.class
+com\quicktron\wes\core\AGV.class
