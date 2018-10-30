@@ -3,6 +3,10 @@ server:
 
 eureka:
   client:
+#    registerWithEureka: false #telling the server not to register himself in the service registry
+#    fetchRegistry: false
+#    server:
+#      waitTimeInMsWhenSyncEmpty: 0 #wait time for subsequent sync
     serviceUrl:
       defaultZone: http://localhost:8061/eureka/
 
@@ -16,27 +20,30 @@ spring:
 #      discovery:
 #        locator:
 #          enabled: true
+#          lowerCaseServiceId: true
       routes:
       - id: basic-service
         uri: lb://basic-service
         order: 8000
         predicates:
-        - Path=/v1/basic/**
+        - Path=/basic/**
         filters:
-        - RewritePath=/v1/basic/(?<path>.*), /$\{path}
-          - AddRequestHeader=X-Request-Foo, Bar
-          - StripPrefix=1
+        - RewritePath=/basic/(?<path>.*), /$\{path}
+        - AddRequestHeader=X-Request-Foo, Bar
+        - StripPrefix=1
+
       - id: wcs-service
         uri: lb://wcs-service
         order: 9000
         predicates:
-        - Path=/v1/wcs/**
+        - Path=/wcs/**
         filters:
-        - RewritePath=/v1/wcs/(?<path>.*), /$\{path}
+        - RewritePath=/wcs/(?<path>.*), /$\{path}
+
       - id: wes-service
         uri: lb://wes-service
         order: 10000
         predicates:
-        - Path=/v1/ces/**
+        - Path=/wes/**
         filters:
-        - RewritePath=/v1/ces/(?<path>.*), /$\{path}
+        - RewritePath=/wes/(?<path>.*), /$\{path}

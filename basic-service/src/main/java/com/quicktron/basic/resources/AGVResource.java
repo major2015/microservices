@@ -19,7 +19,6 @@ import java.util.List;
  * @date2018年10月25日 19:21
  */
 @RestController
-@RequestMapping("v1/agv")
 public class AGVResource {
     public static final Logger logger = LoggerFactory.getLogger(AGVResource.class);
 
@@ -38,7 +37,7 @@ public class AGVResource {
         return ResponseEntity.ok(r);
     }
 
-    @PostMapping(produces = "application/json", consumes = "application./json")
+    @PostMapping(produces = "application/json", consumes = "application./json", path = "/")
     public ResponseEntity<AGV> add(@RequestBody AGV agv) {
         agvDataMock.create(agv);
         return ResponseEntity.ok(agv);

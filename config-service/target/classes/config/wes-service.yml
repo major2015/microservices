@@ -5,6 +5,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8061/eureka/
+  healthcheck:
+    enabled: true
+    lease:
+      duration: 5
       
 logging:
   pattern: 

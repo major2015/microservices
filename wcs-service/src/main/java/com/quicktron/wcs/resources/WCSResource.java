@@ -18,7 +18,6 @@ import java.util.List;
  * @date2018年10月27日 0:43
  */
 @RestController
-@RequestMapping("/v1/wcs")
 public class WCSResource {
     @Autowired
     private WCSDataMock wcsDataMock;
@@ -56,7 +55,7 @@ public class WCSResource {
         return ResponseEntity.ok(exist);
     }
 
-    @PostMapping
+    @PostMapping(path = "/")
     public ResponseEntity<WCS> post(@RequestBody WCS wcs) {
        WCS insert =  wcsDataMock.create(wcs).orNull();
        if (insert == null) {

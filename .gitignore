@@ -1,0 +1,22 @@
+target/**
+basic-service/target/**
+config-service/target/**
+discovery-service/target/**
+gateway-service/target/**
+proxy-service/target/**
+wec-service/target/**
+wcs-service/target/**
+# ignore .DS_Store
+.DS_Store
+
+# intellij
+.idea/
+
+logs/
+
+# no project file
+.project
+
+services.iml
+
+!package.json

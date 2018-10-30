@@ -13,11 +13,11 @@ logging:
 zuul:
   routes:
     basic:
-      path: /v1/basic/**
+      path: /basic/**
       serviceId: basic-service
     wes:
-      path: /v1/wes/**
+      path: /wes/**
       serviceId: wes-service
     wcs:
-      path: /v1/wcs/**
+      path: /wcs/**
       serviceId: wcs-service

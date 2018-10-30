@@ -3,6 +3,7 @@ package com.quicktron.wes;
 import com.quicktron.wes.db.WESDataMock;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,8 +20,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
  * @author lance xu
  * @date2018年10月27日 23:12
  */
-@RestController
 @SpringBootApplication
+@EnableDiscoveryClient
 @EnableFeignClients
 @EnableSwagger2
 public class WESApplication {

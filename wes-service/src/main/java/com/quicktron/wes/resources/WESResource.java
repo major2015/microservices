@@ -21,7 +21,6 @@ import java.util.List;
  * @date2018年10月27日 23:31
  */
 @RestController
-@RequestMapping("/v1/ces")
 public class WESResource {
     @Autowired
     private WESDataMock wesDataMock;
