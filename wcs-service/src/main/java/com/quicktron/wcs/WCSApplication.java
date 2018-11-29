@@ -1,11 +1,14 @@
 package com.quicktron.wcs;
 
+import com.quicktron.wcs.client.DictionaryClient;
 import com.quicktron.wcs.db.WCSDataMock;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
+import org.springframework.core.annotation.Order;
 import org.springframework.web.bind.annotation.RestController;
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
@@ -13,6 +16,8 @@ import springfox.documentation.builders.RequestHandlerSelectors;
 import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
+
+import java.util.Map;
 
 /**
  * ${DESCRIPTION}
@@ -42,5 +47,14 @@ public class WCSApplication {
     @Bean
     WCSDataMock initWCSDataMock() {
         return new WCSDataMock();
+    }
+
+    @Autowired
+    private DictionaryClient dictionaryClient;
+
+    @Bean
+    Map<String, Object> initDictionary() {
+        Map<String, Object> en = dictionaryClient.listEN();
+        return en;
     }
 }

@@ -15,7 +15,7 @@ import java.util.List;
  */
 @FeignClient(name = "basic-service")
 public interface BasicClient {
-    @GetMapping("/v1/agv/list")
+    @GetMapping("/list")
     AGVResult listAGVs();
 
     class AGVResult {

@@ -31,13 +31,15 @@ spring:
         - RewritePath=/basic/(?<path>.*), /$\{path}
         - AddRequestHeader=X-Request-Foo, Bar
         - StripPrefix=1
+
       - id: wcs-service
         uri: lb://wcs-service
         order: 9000
         predicates:
-        - Path=/wcs/**
+        - Path=/wcs/**, /wcs/find/**
         filters:
-        - RewritePath=/wcs/(?<path>.*), /$\{path}
+        - RewritePath=/wcs/(?<path>.*), /$\{path}, /wcs/find/(?<path>.*)
+
       - id: wes-service
         uri: lb://wes-service
         order: 10000

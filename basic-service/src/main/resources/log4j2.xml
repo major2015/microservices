@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN" monitorInterval="30">
+    <properties>
+        <Property name="fileName">logs</Property>
+        <Property name="PID">????</Property>
+        <Property name="LOG_PATTERN">%-6level [%d{HH:mm:ss.SSS}] [%t] %logger{5} - %X{code} %msg %n</Property>
+    </properties>
+
+    <Appenders>
+        <Console name="console" target="SYSTEM_OUT">
+            <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+        </Console>
+        <RollingRandomAccessFile name="infoFile" fileName="${fileName}/basic-runtime.log" immediateFlush="false"
+            filePattern="logs/basic-runtime-%d{MM-dd-yyyy}.log.gz">
+            <PatternLayout pattern="${LOG_PATTERN}"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="1024 MB"/>
+            </Policies>
+            <Filters>
+                <ThresholdFilter level="INFO" onMatch="ACCEPT" onMismatch="DENY"/>
+            </Filters>
+            <DefaultRolloverStrategy max="50"/>
+        </RollingRandomAccessFile>
+    </Appenders>
+
+    <!-- Mixed sync/async -->
+    <Loggers>
+        <!--<Root level="debug" includeLocation="true">-->
+            <!--<AppenderRef ref="console"/>-->
+            <!--<AppenderRef ref="infoFile"/>-->
+            <!--<AppenderRef ref="errorFile"/>-->
+        <!--</Root>-->
+        <AsyncRoot level="debug" includeLocation="true">
+            <AppenderRef ref="console"/>
+            <AppenderRef ref="infoFile"/>
+            <AppenderRef ref="errorFile"/>
+        </AsyncRoot>
+    </Loggers>
+</configuration>

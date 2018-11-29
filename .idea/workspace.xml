@@ -2,32 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b61e790-2992-44da-b118-38b1c3cba9b3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-service/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/client/DictionaryClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-service/target/classes/com/quicktron/basic/BasicApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/basic-service/target/classes/com/quicktron/basic/BasicApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-service/target/classes/com/quicktron/basic/resources/AGVResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/basic-service/target/classes/com/quicktron/basic/resources/AGVResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/basic-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/basic-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basic-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-service/src/main/resources/log4j2.Properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/basic-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/basic-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/gateway-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/gateway-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/proxy-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/proxy-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/wcs-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/wcs-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/src/main/resources/config/wes-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/src/main/resources/config/wes-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/target/classes/config/basic-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/target/classes/config/basic-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/target/classes/config/department-service.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/target/classes/config/employee-service-instance2.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-service/target/classes/com/quicktron/cs/ConfigServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/target/classes/com/quicktron/cs/ConfigServiceApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config-service/target/classes/config/gateway-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-service/target/classes/config/gateway-service.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-service/target/classes/config/organization-service.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy-service/target/classes/com/quicktron/proxy/ProxyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy-service/target/classes/com/quicktron/proxy/ProxyApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy-service/target/classes/com/quicktron/proxy/api/ProxyApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/proxy-service/target/classes/com/quicktron/proxy/api/ProxyApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/runtime.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/WCSApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/WCSApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wcs-service/target/classes/com/quicktron/wcs/WCSApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/wcs-service/target/classes/com/quicktron/wcs/WCSApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wcs-service/target/classes/com/quicktron/wcs/client/BasicClient$AGVResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/wcs-service/target/classes/com/quicktron/wcs/client/BasicClient$AGVResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wcs-service/target/classes/com/quicktron/wcs/core/AGV.class" beforeDir="false" afterPath="$PROJECT_DIR$/wcs-service/target/classes/com/quicktron/wcs/core/AGV.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wcs-service/target/classes/com/quicktron/wcs/core/WCS.class" beforeDir="false" afterPath="$PROJECT_DIR$/wcs-service/target/classes/com/quicktron/wcs/core/WCS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wcs-service/target/classes/com/quicktron/wcs/db/WCSDataMock.class" beforeDir="false" afterPath="$PROJECT_DIR$/wcs-service/target/classes/com/quicktron/wcs/db/WCSDataMock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wcs-service/target/classes/com/quicktron/wcs/resources/WCSResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/wcs-service/target/classes/com/quicktron/wcs/resources/WCSResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wes-service/src/main/java/com/quicktron/wes/WESApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/wes-service/src/main/java/com/quicktron/wes/WESApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wes-service/target/classes/com/quicktron/wes/WESApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/wes-service/target/classes/com/quicktron/wes/WESApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wes-service/target/classes/com/quicktron/wes/resources/WESResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/wes-service/target/classes/com/quicktron/wes/resources/WESResource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/client/BasicClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/client/BasicClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wcs-service/target/classes/com/quicktron/wcs/client/BasicClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/wcs-service/target/classes/com/quicktron/wcs/client/BasicClient.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,23 +49,23 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Properties" value="6" />
-          <entry key="class" value="27" />
+          <entry key="class" value="29" />
           <entry key="gitignore" value="1" />
           <entry key="gz" value="1" />
-          <entry key="java" value="79" />
+          <entry key="java" value="90" />
           <entry key="log" value="3" />
-          <entry key="xml" value="27" />
-          <entry key="yml" value="74" />
+          <entry key="xml" value="28" />
+          <entry key="yml" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="27" />
-          <entry key="JAVA" value="79" />
+          <entry key="CLASS" value="29" />
+          <entry key="JAVA" value="90" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="6" />
-          <entry key="XML" value="27" />
-          <entry key="YAML" value="74" />
+          <entry key="XML" value="28" />
+          <entry key="YAML" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -85,19 +73,19 @@
           <entry key="Properties" value="150" />
           <entry key="class" value="1" />
           <entry key="gitignore" value="131" />
-          <entry key="java" value="4180" />
+          <entry key="java" value="4370" />
           <entry key="xml" value="236" />
-          <entry key="yml" value="1043" />
+          <entry key="yml" value="1088" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="4180" />
+          <entry key="JAVA" value="4370" />
           <entry key="PLAIN_TEXT" value="131" />
           <entry key="Properties" value="150" />
           <entry key="XML" value="236" />
-          <entry key="YAML" value="1043" />
+          <entry key="YAML" value="1088" />
         </counts>
       </usages-collector>
     </session>
@@ -105,75 +93,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/resources/WCSResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="774">
-              <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic-service/src/main/java/com/quicktron/basic/resources/AGVResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wes-service/src/main/java/com/quicktron/wes/resources/WESResource.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="21" column="3" lean-forward="true" selection-start-line="21" selection-start-column="3" selection-end-line="21" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#993#994#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/config/gateway-service.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="164">
-              <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="-103">
+              <caret line="28" selection-start-line="28" selection-end-line="29" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/basic-service/src/main/java/com/quicktron/basic/BasicApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-              <folding>
-                <element signature="e#859#860#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-28446" />
           </provider>
         </entry>
       </file>
@@ -187,15 +111,86 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/config/basic-service-instance2.yml">
+        <entry file="file://$PROJECT_DIR$/wcs-service/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/config/discovery-service.yml">
+        <entry file="file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/client/BasicClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+                <element signature="e#612#613#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.1.RELEASE/spring-cloud-openfeign-core-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/resources/WCSResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="349">
+              <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/basic-service/src/main/java/com/quicktron/basic/resources/AGVResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="46" column="48" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/client/DictionaryClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="22">
-              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/WCSApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="57" selection-start-line="57" selection-end-line="57" />
+              <folding>
+                <element signature="e#1594#1595#0" expanded="true" />
+                <element signature="e#1634#1635#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1-sources.jar!/feign/ReflectiveFeign.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
             </state>
           </provider>
         </entry>
@@ -221,8 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/basic-service/src/main/resources/application-instance2.yml" />
-        <option value="$PROJECT_DIR$/basic-service/src/main/resources/application-dev.yml" />
         <option value="$PROJECT_DIR$/basic-service/src/main/resources/application-prod.yml" />
         <option value="$PROJECT_DIR$/basic-service/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/wcs/pom.xml" />
@@ -243,7 +236,6 @@
         <option value="$PROJECT_DIR$/wes/src/main/java/com/quicktron/wes/client/BasicClient.java" />
         <option value="$PROJECT_DIR$/wcs/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/wes/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/basic-service/src/main/java/com/quicktron/basic/BasicApplication.java" />
         <option value="$PROJECT_DIR$/wes/src/main/java/com/quicktron/wes/core/WES.java" />
         <option value="$PROJECT_DIR$/wes/src/main/java/com/quicktron/wes/client/WCSClient.java" />
         <option value="$PROJECT_DIR$/wes/src/main/java/com/quicktron/wes/resources/WESResource.java" />
@@ -261,7 +253,6 @@
         <option value="$PROJECT_DIR$/proxy-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/gateway-service/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/wes-service/src/main/java/com/quicktron/wes/client/WCSClient.java" />
-        <option value="$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/WCSApplication.java" />
         <option value="$PROJECT_DIR$/wes-service/src/main/java/com/quicktron/wes/WESApplication.java" />
         <option value="$PROJECT_DIR$/config-service/src/main/resources/config/basic-service.yml" />
         <option value="$PROJECT_DIR$/config-service/src/main/resources/config/wcs-service.yml" />
@@ -269,9 +260,13 @@
         <option value="$PROJECT_DIR$/config-service/src/main/resources/config/proxy-service.yml" />
         <option value="$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/resources/WCSResource.java" />
         <option value="$PROJECT_DIR$/wes-service/src/main/java/com/quicktron/wes/resources/WESResource.java" />
-        <option value="$PROJECT_DIR$/config-service/src/main/resources/config/gateway-service.yml" />
         <option value="$PROJECT_DIR$/basic-service/src/main/java/com/quicktron/basic/resources/AGVResource.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/basic-service/src/main/java/com/quicktron/basic/BasicApplication.java" />
+        <option value="$PROJECT_DIR$/config-service/src/main/resources/config/gateway-service.yml" />
+        <option value="$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/client/BasicClient.java" />
+        <option value="$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/client/DictionaryClient.java" />
+        <option value="$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/WCSApplication.java" />
       </list>
     </option>
   </component>
@@ -316,13 +311,16 @@
     <option name="width" value="1924" />
     <option name="height" value="1031" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -333,11 +331,6 @@
             <path>
               <item name="services" type="b2602c69:ProjectViewProjectNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="basic-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -378,6 +371,34 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="db" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="basic" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -397,23 +418,6 @@
               <item name="config-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="config-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="config-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="cs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="services" type="b2602c69:ProjectViewProjectNode" />
@@ -431,145 +435,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="discovery-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="services" type="b2602c69:ProjectViewProjectNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-              <item name="proxy-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="services" type="b2602c69:ProjectViewProjectNode" />
@@ -634,22 +499,56 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="wes-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="wes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="wes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="wes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="services" type="b2602c69:ProjectViewProjectNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="wes-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth0" value="15" />
+    <property name="RequestMappingsPanelWidth1" value="15" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/quicktron/services/wcs-service/src/main/java/com/quicktron/wcs/resources/WCSResource.java&#10;Respon&#9;PSI&#9;JAVA://javax.ws.rs.core.Response" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540876958494" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543460106405" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/wes-service" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -683,7 +582,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.WESApplication">
+  <component name="RunManager" selected="Spring Boot.WCSApplication">
     <configuration name="BasicApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="basic-service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.quicktron.basic.BasicApplication" />
@@ -784,13 +683,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87094000" />
+    <option name="totallyTimeSpent" value="94883000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-228" y="-1072" width="1924" height="1031" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1378" height="735" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.222103" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3239757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -798,15 +696,16 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.47666666" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.48995537" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4486607" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41166666" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.51" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3294509" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.25223213" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.25223213" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32924107" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.3294509" />
@@ -863,6 +762,48 @@
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/resources/WCSResource.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/resources/WCSResource.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/resources/WCSResource.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/WCSApplication.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/WCSApplication.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/client/BasicClient.java</url>
+          <line>22</line>
+          <properties field="agvs" class="com.quicktron.wcs.client.BasicClient.AGVResult" />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/client/BasicClient.java</url>
+          <line>18</line>
+          <properties class="com.quicktron.wcs.client.BasicClient" method="listAGVs" />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -870,83 +811,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE.jar!/org/springframework/beans/factory/support/ConstructorResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="572" selection-start-line="572" selection-end-line="572" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1073">
-          <caret line="348" selection-start-line="348" selection-end-line="348" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE-sources.jar!/org/springframework/beans/factory/support/ConstructorResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="650" column="28" selection-start-line="650" selection-start-column="28" selection-end-line="650" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE.jar!/org/springframework/boot/builder/SpringApplicationBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE.jar!/org/springframework/boot/SpringApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="217" selection-start-line="217" selection-end-line="217" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.4.RELEASE/spring-context-5.0.4.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="433" selection-start-line="433" selection-end-line="433" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.4.RELEASE/spring-context-5.0.4.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="804" column="19" selection-start-line="804" selection-start-column="19" selection-end-line="804" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.0.4.RELEASE/spring-context-5.0.4.RELEASE-sources.jar!/org/springframework/context/support/GenericApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="295" selection-start-line="295" selection-end-line="295" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE.jar!/org/springframework/core/ResolvableType.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="637" selection-start-line="637" selection-end-line="637" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.4.RELEASE/spring-core-5.0.4.RELEASE.jar!/org/springframework/core/SimpleAliasRegistry.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE-sources.jar!/org/springframework/beans/factory/support/DefaultListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="419" selection-start-line="419" selection-end-line="419" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.0.4.RELEASE/spring-beans-5.0.4.RELEASE-sources.jar!/org/springframework/beans/factory/support/RootBeanDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -1035,23 +899,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/client/BasicClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#699#700#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1064,17 +911,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gateway-service/src/main/java/com/quicktron/gateway/GatewayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+        <state relative-caret-position="263">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#439#440#0" expanded="true" />
             <element signature="e#515#516#0" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.0.0.RELEASE/spring-boot-2.0.0.RELEASE.jar!/org/springframework/boot/web/reactive/context/ReactiveWebServerApplicationContext.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -1085,8 +929,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wcs-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="7" selection-start-line="7" selection-end-line="8" />
+        <state relative-caret-position="484">
+          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -1132,15 +976,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/discovery-service/src/main/java/com/quicktron/discovery/DiscoveryApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
+        <state relative-caret-position="277">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/WCSApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1162,16 +999,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
           <caret line="33" column="44" lean-forward="true" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/config/basic-service.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="6" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -1187,30 +1014,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/config/wcs-service.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/config/basic-service-instance2.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/config/discovery-service.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/resources/WCSResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="774">
-          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -1219,24 +1029,58 @@
         <state relative-caret-position="-28446" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basic-service/src/main/java/com/quicktron/basic/resources/AGVResource.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="20" column="15" lean-forward="true" selection-start-line="20" selection-start-column="15" selection-end-line="20" selection-end-column="15" />
+        <state relative-caret-position="244">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/config/gateway-service.yml">
+    <entry file="file://$PROJECT_DIR$/gateway-service/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/java/com/quicktron/cs/resources/AboutResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="23" column="13" lean-forward="true" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="264">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/java/com/quicktron/cs/ConfigServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-33">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1.jar!/feign/ReflectiveFeign.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="328" selection-start-line="328" selection-end-line="328" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="88" column="12" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="88" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/config/basic-service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="17" selection-start-line="10" selection-start-column="4" selection-end-line="13" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basic-service/src/main/java/com/quicktron/basic/BasicApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        <state relative-caret-position="264">
+          <caret line="21" column="15" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
           <folding>
             <element signature="e#859#860#0" expanded="true" />
             <element signature="e#933#934#0" expanded="true" />
@@ -1244,10 +1088,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/basic-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="402">
-          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic-service/src/main/java/com/quicktron/basic/resources/AGVResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="46" column="48" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.1.RELEASE/spring-cloud-openfeign-core-2.0.1.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.1.RELEASE/spring-cloud-openfeign-core-2.0.1.RELEASE-sources.jar!/org/springframework/cloud/openfeign/FeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/client/BasicClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/config/gateway-service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-103">
+          <caret line="28" selection-start-line="28" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-service/src/main/resources/config/wcs-service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcs-service/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/9.5.1/feign-core-9.5.1-sources.jar!/feign/ReflectiveFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/client/DictionaryClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/resources/WCSResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wcs-service/src/main/java/com/quicktron/wcs/WCSApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
